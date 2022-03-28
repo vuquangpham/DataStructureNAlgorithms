@@ -21,7 +21,7 @@ addUpTo(100);
 // -> 550
 ```
 
-Yea, you see, we got the result. But, Is it better? "How long" does it take? Now we have a simple measuring on it. We use [**performance.now()**](https://developer.mozilla.org/en-US/docs/Web/API/Performance/now) - a javascript feature. Now let's do it.
+Yea, you see, we got the result. But, Is it better enough? **How long** does it take? Now we have a simple measuring on it. We use [**performance.now()**](https://developer.mozilla.org/en-US/docs/Web/API/Performance/now) - a javascript feature. Now let's do it.
 
 ```javascript
 const t1 = performance.now();
